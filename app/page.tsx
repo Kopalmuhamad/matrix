@@ -26,7 +26,7 @@ async function fetchProducts(sort: string = '') {
     return [];
   }
 }
-31
+
 export default function Home() {
   const [sort, setSort] = useState('')
   const [products, setProducts] = useState([])
